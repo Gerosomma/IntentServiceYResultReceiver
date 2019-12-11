@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IntentServiceYResultReceiver</string>
+    <string name="tvMensaje">Hola Mundo!</string>
 </resources>
