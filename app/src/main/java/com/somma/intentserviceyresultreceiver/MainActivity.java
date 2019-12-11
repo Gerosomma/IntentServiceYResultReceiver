@@ -22,10 +22,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnRestaurarOnClick(View view) {
-
+        tvMensaje.setText(mensajePredeterminado);
     }
 
     public void btnProcesarOnClick(View view) {
-
+        //volvemos...... aca vamos a usar un intentService
+        //a fin de que no se nos tranque toda la app, este intentService se encargara el solo de generar un hilo nuevo para procesar
     }
 }
